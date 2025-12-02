@@ -86,7 +86,7 @@ export function getDoubleRepeats(from: number, to: number): Set<number> {
 }
 
 /** Returns all repeats in the given range (part 2 solution).
- * Includes not only double repeats, but repeatitions of sequences of digits
+ * Includes not only double repeats, but repetitions of sequences of digits
  * any number of times.
  */
 export function getAllRepeats(from: number, to: number): Set<number> {
