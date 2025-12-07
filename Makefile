@@ -38,6 +38,10 @@ day6/part2:
 day6/test:
 	deno test day6
 
+.PHONY: day7
+day7:
+	deno run -A day7/both_parts.ts
+
 .PHONY: validate
 validate:
 	deno check
