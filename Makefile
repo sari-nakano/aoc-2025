@@ -42,6 +42,10 @@ day6/test:
 day7:
 	deno run -A day7/both_parts.ts
 
+.PHONY: day8
+day8:
+	deno run -A day8/both_parts.ts
+
 .PHONY: validate
 validate:
 	deno check
